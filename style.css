@@ -3,9 +3,7 @@ html{
 }
 
 .head1{
-    border: 3px solid white ;
-    border-width: normal;
-    border-style:double;
+    border: 4px double white ;
     margin-left:500px ;
     margin-right:500px;
     font-family:Arial, Helvetica, sans-serif;
@@ -16,8 +14,7 @@ html{
 }
 
 .picture{
-    border: 3px solid white;
-    border-style: double;
+    border: 4px double white;
     background-color: black;
     border-top: 0px;
     margin-left: 500px;
@@ -26,7 +23,7 @@ html{
 }
 
 #arabicrecipes{
-    border: 3px solid white;
+    border: 4px double white;
     margin-left: 500px;
     margin-right:500px;
     text-align: center;
@@ -46,24 +43,33 @@ body{
 }
 
 ul li{
-    border: 3px solid white;
+    border: 4px double white;
     margin-left: 460px;
     margin-right:500px;
     color:white;
     text-align: center;
     list-style: none;
     background-color: black;
-    
 }
 
 a{
     font-family: Arial, Helvetica, sans-serif;
     color:white;
     font-size: 20px;
+    text-decoration-color: yellow;
+    text-decoration-style:dashed;
+}
+
+a:hover{
+    color:yellow;
 }
 
 #favorite{
     color: white;
     text-decoration: none;
     font-size: 20px;
+}
+
+#favorite:hover{
+    color:yellow;
 }
