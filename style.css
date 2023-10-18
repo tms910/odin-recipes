@@ -1,8 +1,13 @@
 html{
-    background-color: white;
+    background-color: orange;
 }
 
 .head1{
+    border: 3px solid white ;
+    border-width: normal;
+    border-style:double;
+    margin-left:500px ;
+    margin-right:500px;
     font-family:Arial, Helvetica, sans-serif;
     font-style:normal;
     text-align: center;
@@ -11,13 +16,19 @@ html{
 }
 
 .picture{
+    border: 3px solid white;
+    border-style: double;
+    background-color: black;
+    border-top: 0px;
+    margin-left: 500px;
+    margin-right:500px;
     text-align: center;
 }
 
 #arabicrecipes{
+    -webkit-text-stroke: 1px white;
     font-size:30px;
-    font-weight: bold;
-    text-decoration: underline;
+    font-weight: 800;
 }
 
 body{
@@ -30,4 +41,9 @@ p,ul,li{
 
 li{
     margin-left: -20px;
+}
+
+a{
+    color:blueviolet;
+    text-decoration:underline;
 }
