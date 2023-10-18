@@ -34,9 +34,13 @@ h1{
 }
 
 
-button#favorite{
+button{
     background-color: black;
     font-size: 20px;
+}
+
+button:hover{
+    background-color:blue;
 }
 
 #favorite a{
