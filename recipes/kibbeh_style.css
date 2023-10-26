@@ -1,50 +1,69 @@
-.pic{
-    text-align: center;
-}
-
-li,ul,p{
+body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight:normal;
-    color:black;
-    text-shadow: 0px 0px 30px white;
-    
-}
-
-html{
     background-color:orange ;
+    margin:2px;
 }
 
-h1,h2,h3{
-    font-size: 30px;
-    text-shadow:0px 0px 10px white;
-}
 
-h1{
-    text-align: center;
-}
-
-.bord{
-    border:10px solid black;
+.border1{
+    border:4px dashed black;
     border-radius: 10px;
     padding-left: 20px;
-    border-style:groove;
-    border-width: 5px;
-    margin:-6px;
 }
 
 
 button{
     background-color: black;
     font-size: 20px;
+    margin:10px -10px;
 }
+
 
 button:hover{
     background-color:blue;
 }
 
-#favorite a{
+
+a{
     text-decoration: none;
     color: white;
+}
+
+h1{
+    display: block;
+    border:1px solid black;
+    border-bottom: 1px dashed;
+    text-align: center;
+    padding:2px 0px;
+    margin-left: -20px;
+    margin:0px 660px;
+    background-color: white;
+    color:black;
+    -webkit-text-stroke: 1px white;
+}
+
+.pic{
+    display:block;
+    border:1px solid black;
+    block-size: 375px;
+    border-top:0px;
+    margin:0px 660px;
+    padding:10px 0px ;
+    background-color:white;
+    text-align: center;
+}
+
+
+li,ul,p{
+    font-size: 18px;
+    font-weight:normal;
+    color:black;
+    text-shadow: 0px 0px 30px white; 
+}
+
+
+h1,h2,h3{
+    font-size: 30px;
+    text-shadow:0px 0px 10px white;
 }
 

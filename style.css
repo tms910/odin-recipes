@@ -2,74 +2,58 @@ html{
     background-color: orange;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+
 .head1{
     border: 4px double white ;
-    margin-left:500px ;
-    margin-right:500px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-style:normal;
+    margin:0px 500px;
     text-align: center;
     background-color: black;
-    color:white;
+    font-size: 26px;
+    -webkit-text-stroke:1px orange;
 }
 
 .picture{
     border: 4px double white;
+    border-top:0px;
+    border-bottom: 0px;
     background-color: black;
-    border-top: 0px;
-    margin-left: 500px;
-    margin-right:500px;
+    margin:0px 500px;
     text-align: center;
 }
 
-#arabicrecipes{
+#arabicrecipes_border{
     border: 4px double white;
-    margin-left: 500px;
-    margin-right:500px;
+    margin:0px 500px -16px;
     text-align: center;
-    border-bottom: 0px;
-    border-top: 0px;
-    margin-top:0px;
-    margin-bottom: -20px;
-    -webkit-text-stroke: 1px black;
-    font-size:30px;
+    -webkit-text-stroke: 1px orange;
+    font-size:24px;
     font-weight: 800;
     background-color: black;
-    color:orange;
+    color:white;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 ul li{
     border: 4px double white;
-    margin-left: 460px;
-    margin-right:500px;
+    border-top:0px;
+    margin:0px 500px 0px 460px;
     color:white;
     text-align: center;
-    list-style: none;
+    list-style:none;
     background-color: black;
 }
 
 a{
-    font-family: Arial, Helvetica, sans-serif;
     color:white;
     font-size: 20px;
-    text-decoration-color: yellow;
-    text-decoration-style:dashed;
+    text-decoration:none;
 }
 
 a:hover{
-    color:yellow;
-}
-
-#favorite{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-#favorite:hover{
-    color:yellow;
+    color:rgb(175, 0, 219);
 }
