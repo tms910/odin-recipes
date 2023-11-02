@@ -4,7 +4,6 @@ html{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    display: block;
 }
 
 
@@ -28,7 +27,7 @@ body{
 
 #arabicrecipes_border{
     border: 4px double white;
-    margin:0px 500px -16px;
+    margin:0px 500px;
     text-align: center;
     -webkit-text-stroke: 1px orange;
     font-size:24px;
@@ -38,21 +37,19 @@ body{
 }
 
 
-ul li{
+a{
     border: 4px double white;
     border-top:0px;
-    margin:0px 500px 0px 460px;
+    display:block;
     color:white;
+    margin:0px 500px;
+    padding-top:5px;
     text-align: center;
-    list-style:none;
     background-color: black;
-}
-
-a{
-    color:white;
     font-size: 20px;
     text-decoration:none;
 }
+
 
 a:hover{
     color:rgb(175, 0, 219);
