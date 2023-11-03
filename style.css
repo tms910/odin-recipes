@@ -19,6 +19,7 @@ body{
 }
 
 .picture{
+    display: grid;
     border: 4px double white;
     border-top:0px;
     border-bottom: 0px;
